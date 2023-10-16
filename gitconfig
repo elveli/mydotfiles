@@ -1,0 +1,21 @@
+# ~/.gitconfig
+[alias]
+	co = checkout
+	br = branch
+	re = restore
+	sh = show
+	st = status
+	d = diff
+	gl = git log --graph --pretty=format:%C(yellow)%h%C(auto)%d%Creset %s %C(white) %C(cyan)%an, %C(magenta)%ar%Creset
+	icom = interdiff <(git show $1) <(git show $2) | less -FRS
+	ll = log
+	rv = remote
+	sh = show
+	remo = remote
+	#al = alias
+	ll = log
+	rv = remote
+	al = config --get-regexp ^alias\\.
+[user]
+	name = Joe User
+	email = user@example.com
