@@ -10,7 +10,7 @@
 	icom = interdiff <(git show $1) <(git show $2) | less -FRS
 	ll = log
 	rv = remote
-	ss = show
+	sh = show
 	remo = remote
 	#al = alias
 	ll = log
